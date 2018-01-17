@@ -8,3 +8,4 @@ age = input('Enter you age')
 name1, name2 = name.split()
 len(name1)
 len(name2)
+
