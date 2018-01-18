@@ -15,5 +15,6 @@ letters = len(sentence)-number_of_space
 #print(letters)
 print('Your sentence has', len(words), 'words,', characters, 'characters and', letters, 'letters')
 
+SENTENCE = sentence.upper()
 charSearch = input('Enter a character to search for: ')
-sentence.count('l')
+print('Your sentence has', SENTENCE.count(charSearch.upper()), 'of the character', charSearch)
