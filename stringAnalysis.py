@@ -18,3 +18,6 @@ print('Your sentence has', len(words), 'words,', characters, 'characters and', l
 SENTENCE = sentence.upper()
 charSearch = input('Enter a character to search for: ')
 print('Your sentence has', SENTENCE.count(charSearch.upper()), 'of the character', charSearch)
+
+wordSearch = input('Enter a word to search for: ')
+print('Your Sentence has', SENTENCE.count(wordSearch.upper()), 'of the word', wordSearch)
