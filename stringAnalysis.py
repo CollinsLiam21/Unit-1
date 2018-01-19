@@ -5,14 +5,13 @@
 sentence = input('Enter a sentence: ')
 
 words = sentence.split()
-#print(len(words))
+
 characters = len(sentence)
-#print(characters)
+
 
 space = ' '
 number_of_space = sentence.count(space)
 letters = len(sentence)-number_of_space
-#print(letters)
 print('Your sentence has', len(words), 'words,', characters, 'characters and', letters, 'letters')
 
 SENTENCE = sentence.upper()
