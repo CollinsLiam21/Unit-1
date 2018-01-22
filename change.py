@@ -4,11 +4,14 @@
 
 totalCents = int(input('Enter number of cents: '))
 
-quarter = round(totalCents//25)
+quarter = totalCents//25
 print(quarter, 'quarters')
 
-nickel = round((totalCents-(quarter*25))//5)
+dime = (totalCents-(quarter*25))//10
+print(dime, 'dime')
+
+nickel = (totalCents-(quarter*25)-(dime*10))//5
 print(nickel, 'nickels')
 
-penny = round((totalCents-(quarter*25)-(nickel*5)))
+penny = (totalCents-(quarter*25)-(dime*10)-(nickel*5))
 print(penny, 'pennies')
