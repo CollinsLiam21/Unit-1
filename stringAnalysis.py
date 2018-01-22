@@ -4,15 +4,13 @@
 
 sentence = input('Enter a sentence: ')
 
-words = sentence.split()
-
 characters = len(sentence)
-
 
 space = ' '
 number_of_space = sentence.count(space)
 letters = len(sentence)-number_of_space
-print('Your sentence has', len(words), 'words,', characters, 'characters and', letters, 'letters')
+words = int(number_of_space)+1
+print('Your sentence has', words, 'words,', characters, 'characters and', letters, 'letters')
 
 SENTENCE = sentence.upper()
 charSearch = input('Enter a character to search for: ')
