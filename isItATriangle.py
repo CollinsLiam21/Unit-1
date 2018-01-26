@@ -1,6 +1,6 @@
 #Liam Collins
 #1/22/18
-#isItATriangle.py
+#isItATriangle.py - Working with max(a,b) and min(a,b)
 
 a = float(input('Side A: '))
 b = float(input('Side B: '))
